@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_52c1f8c3acc9b662b634a3f4c5b2e0f7 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+    <script src="https://cdn.jsdelivr.net/npm/leaflet-ant-path@1.1.2/dist/leaflet-ant-path.min.js"></script>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_52c1f8c3acc9b662b634a3f4c5b2e0f7" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_52c1f8c3acc9b662b634a3f4c5b2e0f7 = L.map(
+                "map_52c1f8c3acc9b662b634a3f4c5b2e0f7",
+                {
+                    center: [48.118, 11.58],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 14,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_bc3b288f6281daa2d1d4c259a085b2b2 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_52c1f8c3acc9b662b634a3f4c5b2e0f7);
+        
+    
+            var marker_91b2fc14486584b6f2f163c5fa905f55 = L.marker(
+                [48.1125, 11.5778],
+                {}
+            ).addTo(map_52c1f8c3acc9b662b634a3f4c5b2e0f7);
+        
+    
+            var icon_5a57b78befc36ad8682056e7670806a1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_91b2fc14486584b6f2f163c5fa905f55.setIcon(icon_5a57b78befc36ad8682056e7670806a1);
+        
+    
+        var popup_590e9ca97f03e22fda78786342385be2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ced89374c15a9fc125f22d543cccf960 = $(`<div id="html_ced89374c15a9fc125f22d543cccf960" style="width: 100.0%; height: 100.0%;"><b>Schön-Stüberl</b><br>Öffnet: 10:00, Schließt: 22:00<br><a href='https://www.google.com/maps/search/?api=1&query=48.1125,11.5778' target='_blank'>Google Maps Link</a></div>`)[0];
+            popup_590e9ca97f03e22fda78786342385be2.setContent(html_ced89374c15a9fc125f22d543cccf960);
+        
+
+        marker_91b2fc14486584b6f2f163c5fa905f55.bindPopup(popup_590e9ca97f03e22fda78786342385be2)
+        ;
+
+        
+    
+    
+            var marker_40087875a2435f48e9fc55419608d174 = L.marker(
+                [48.111, 11.5795],
+                {}
+            ).addTo(map_52c1f8c3acc9b662b634a3f4c5b2e0f7);
+        
+    
+            var icon_c2dcd828cd5fe669dc89aadcfd8977ee = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_40087875a2435f48e9fc55419608d174.setIcon(icon_c2dcd828cd5fe669dc89aadcfd8977ee);
+        
+    
+        var popup_ac971d7ca0c619dcf5bf31fb26fa3808 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_eac44f2aa5009114036e5006d08f04ee = $(`<div id="html_eac44f2aa5009114036e5006d08f04ee" style="width: 100.0%; height: 100.0%;"><b>Giesinger Garten</b><br>Öffnet: 10:00, Schließt: 23:59<br><a href='https://www.google.com/maps/search/?api=1&query=48.111,11.5795' target='_blank'>Google Maps Link</a></div>`)[0];
+            popup_ac971d7ca0c619dcf5bf31fb26fa3808.setContent(html_eac44f2aa5009114036e5006d08f04ee);
+        
+
+        marker_40087875a2435f48e9fc55419608d174.bindPopup(popup_ac971d7ca0c619dcf5bf31fb26fa3808)
+        ;
+
+        
+    
+    
+            var marker_a960972b2d98d1e6a9ac16f9798bc4a0 = L.marker(
+                [48.1101, 11.5817],
+                {}
+            ).addTo(map_52c1f8c3acc9b662b634a3f4c5b2e0f7);
+        
+    
+            var icon_0804146a269561439e92dfb65b8263d9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_a960972b2d98d1e6a9ac16f9798bc4a0.setIcon(icon_0804146a269561439e92dfb65b8263d9);
+        
+    
+        var popup_f4e6fa222f2c118716368e745da06980 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bfb636135f146c6ef37000bdc91bd47e = $(`<div id="html_bfb636135f146c6ef37000bdc91bd47e" style="width: 100.0%; height: 100.0%;"><b>Café Bar 23</b><br>Öffnet: 11:00, Schließt: 03:00<br><a href='https://www.google.com/maps/search/?api=1&query=48.1101,11.5817' target='_blank'>Google Maps Link</a></div>`)[0];
+            popup_f4e6fa222f2c118716368e745da06980.setContent(html_bfb636135f146c6ef37000bdc91bd47e);
+        
+
+        marker_a960972b2d98d1e6a9ac16f9798bc4a0.bindPopup(popup_f4e6fa222f2c118716368e745da06980)
+        ;
+
+        
+    
+    
+            var marker_0f37d7f01dee037bbc01e139deb8efc7 = L.marker(
+                [48.1265, 11.5703],
+                {}
+            ).addTo(map_52c1f8c3acc9b662b634a3f4c5b2e0f7);
+        
+    
+            var icon_93d7aa8185e270b1e513cf4b48ba7167 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_0f37d7f01dee037bbc01e139deb8efc7.setIcon(icon_93d7aa8185e270b1e513cf4b48ba7167);
+        
+    
+        var popup_3282286d5f0973fe825932acda7d6431 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8cb6714f1836169285a4b5d9dbf280c0 = $(`<div id="html_8cb6714f1836169285a4b5d9dbf280c0" style="width: 100.0%; height: 100.0%;"><b>Loretta Bar</b><br>Öffnet: 09:00, Schließt: 02:00<br><a href='https://www.google.com/maps/search/?api=1&query=48.1265,11.5703' target='_blank'>Google Maps Link</a></div>`)[0];
+            popup_3282286d5f0973fe825932acda7d6431.setContent(html_8cb6714f1836169285a4b5d9dbf280c0);
+        
+
+        marker_0f37d7f01dee037bbc01e139deb8efc7.bindPopup(popup_3282286d5f0973fe825932acda7d6431)
+        ;
+
+        
+    
+    
+            var marker_89eef3d26bc6d9a4ed74cce04ad1877e = L.marker(
+                [48.1108, 11.5915],
+                {}
+            ).addTo(map_52c1f8c3acc9b662b634a3f4c5b2e0f7);
+        
+    
+            var icon_7b0e6045a323aa83d27e12db34c477c9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_89eef3d26bc6d9a4ed74cce04ad1877e.setIcon(icon_7b0e6045a323aa83d27e12db34c477c9);
+        
+    
+        var popup_6239e51149f481e467e6e45174897c15 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_93c22a9546605336e1229589bd2c858e = $(`<div id="html_93c22a9546605336e1229589bd2c858e" style="width: 100.0%; height: 100.0%;"><b>Giesinger Bräu</b><br>Öffnet: 10:00, Schließt: 18:00<br><a href='https://www.google.com/maps/search/?api=1&query=48.1108,11.5915' target='_blank'>Google Maps Link</a></div>`)[0];
+            popup_6239e51149f481e467e6e45174897c15.setContent(html_93c22a9546605336e1229589bd2c858e);
+        
+
+        marker_89eef3d26bc6d9a4ed74cce04ad1877e.bindPopup(popup_6239e51149f481e467e6e45174897c15)
+        ;
+
+        
+    
+    
+            var marker_5b04e411cc0dbbb6ce0365bbb4d6a1c7 = L.marker(
+                [48.1297, 11.5732],
+                {}
+            ).addTo(map_52c1f8c3acc9b662b634a3f4c5b2e0f7);
+        
+    
+            var icon_14aa9dd39b3a6b738df100e9e8c77238 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_5b04e411cc0dbbb6ce0365bbb4d6a1c7.setIcon(icon_14aa9dd39b3a6b738df100e9e8c77238);
+        
+    
+        var popup_7e23dc5408fcb627f8cfb7694818364b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9a9ec637bd62871251f625ea015ab6f0 = $(`<div id="html_9a9ec637bd62871251f625ea015ab6f0" style="width: 100.0%; height: 100.0%;"><b>Hangman</b><br>Öffnet: 14:30, Schließt: 02:00<br><a href='https://www.google.com/maps/search/?api=1&query=48.1297,11.5732' target='_blank'>Google Maps Link</a></div>`)[0];
+            popup_7e23dc5408fcb627f8cfb7694818364b.setContent(html_9a9ec637bd62871251f625ea015ab6f0);
+        
+
+        marker_5b04e411cc0dbbb6ce0365bbb4d6a1c7.bindPopup(popup_7e23dc5408fcb627f8cfb7694818364b)
+        ;
+
+        
+    
+    
+            var marker_a1f10d7769b534283e493c3d2f59c44a = L.marker(
+                [48.126, 11.5688],
+                {}
+            ).addTo(map_52c1f8c3acc9b662b634a3f4c5b2e0f7);
+        
+    
+            var icon_c09ae217401781475a4b8c66224a65f8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_a1f10d7769b534283e493c3d2f59c44a.setIcon(icon_c09ae217401781475a4b8c66224a65f8);
+        
+    
+        var popup_d2ef7b1cda7df9baf7bbf07275922c50 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1481f3b83debcff9124ff4dec673d32e = $(`<div id="html_1481f3b83debcff9124ff4dec673d32e" style="width: 100.0%; height: 100.0%;"><b>Frau Bartels</b><br>Öffnet: 17:00, Schließt: 02:00<br><a href='https://www.google.com/maps/search/?api=1&query=48.126,11.5688' target='_blank'>Google Maps Link</a></div>`)[0];
+            popup_d2ef7b1cda7df9baf7bbf07275922c50.setContent(html_1481f3b83debcff9124ff4dec673d32e);
+        
+
+        marker_a1f10d7769b534283e493c3d2f59c44a.bindPopup(popup_d2ef7b1cda7df9baf7bbf07275922c50)
+        ;
+
+        
+    
+    
+            var marker_e809b9d2b8bc35f794a2fb70b8638e97 = L.marker(
+                [48.1335, 11.5894],
+                {}
+            ).addTo(map_52c1f8c3acc9b662b634a3f4c5b2e0f7);
+        
+    
+            var icon_a3c7fa1cff3fd7443e9a2c0a9798d349 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_e809b9d2b8bc35f794a2fb70b8638e97.setIcon(icon_a3c7fa1cff3fd7443e9a2c0a9798d349);
+        
+    
+        var popup_046b8e1ef2ebd816c662eee940be576a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_99af9a222c8943f06235cde167ff7a71 = $(`<div id="html_99af9a222c8943f06235cde167ff7a71" style="width: 100.0%; height: 100.0%;"><b>Negroni Bar</b><br>Öffnet: 17:30, Schließt: 01:30<br><a href='https://www.google.com/maps/search/?api=1&query=48.1335,11.5894' target='_blank'>Google Maps Link</a></div>`)[0];
+            popup_046b8e1ef2ebd816c662eee940be576a.setContent(html_99af9a222c8943f06235cde167ff7a71);
+        
+
+        marker_e809b9d2b8bc35f794a2fb70b8638e97.bindPopup(popup_046b8e1ef2ebd816c662eee940be576a)
+        ;
+
+        
+    
+    
+            var marker_a28bf58deaee4adec2134f09d2cb9804 = L.marker(
+                [48.132, 11.5992],
+                {}
+            ).addTo(map_52c1f8c3acc9b662b634a3f4c5b2e0f7);
+        
+    
+            var icon_018046f10a4c5ce22ced6baea768fa18 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_a28bf58deaee4adec2134f09d2cb9804.setIcon(icon_018046f10a4c5ce22ced6baea768fa18);
+        
+    
+        var popup_e2f5c703bce043e46cbfed758b1a07bf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f547f964ae188731b024e4e78aceef8b = $(`<div id="html_f547f964ae188731b024e4e78aceef8b" style="width: 100.0%; height: 100.0%;"><b>Rio Bar</b><br>Öffnet: 18:00, Schließt: 02:00<br><a href='https://www.google.com/maps/search/?api=1&query=48.132,11.5992' target='_blank'>Google Maps Link</a></div>`)[0];
+            popup_e2f5c703bce043e46cbfed758b1a07bf.setContent(html_f547f964ae188731b024e4e78aceef8b);
+        
+
+        marker_a28bf58deaee4adec2134f09d2cb9804.bindPopup(popup_e2f5c703bce043e46cbfed758b1a07bf)
+        ;
+
+        
+    
+    
+            var marker_cfd41c200e01899b44a47579e3330353 = L.marker(
+                [48.1325, 11.5736],
+                {}
+            ).addTo(map_52c1f8c3acc9b662b634a3f4c5b2e0f7);
+        
+    
+            var icon_4ee65a6889cf4dd40e7ead331ef84cb0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_cfd41c200e01899b44a47579e3330353.setIcon(icon_4ee65a6889cf4dd40e7ead331ef84cb0);
+        
+    
+        var popup_d185e65860f0b758455cf76191e521c2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a9de958d548b538820b75bf564b007c4 = $(`<div id="html_a9de958d548b538820b75bf564b007c4" style="width: 100.0%; height: 100.0%;"><b>The High</b><br>Öffnet: 20:00, Schließt: 03:00<br><a href='https://www.google.com/maps/search/?api=1&query=48.1325,11.5736' target='_blank'>Google Maps Link</a></div>`)[0];
+            popup_d185e65860f0b758455cf76191e521c2.setContent(html_a9de958d548b538820b75bf564b007c4);
+        
+
+        marker_cfd41c200e01899b44a47579e3330353.bindPopup(popup_d185e65860f0b758455cf76191e521c2)
+        ;
+
+        
+    
+    
+            var marker_1b5844ca4b59cb9048a65e549eb55162 = L.marker(
+                [48.1301, 11.5779],
+                {}
+            ).addTo(map_52c1f8c3acc9b662b634a3f4c5b2e0f7);
+        
+    
+            var icon_959c958c7a1f2c71603fa3c41df08516 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_1b5844ca4b59cb9048a65e549eb55162.setIcon(icon_959c958c7a1f2c71603fa3c41df08516);
+        
+    
+        var popup_249939084fa1ebdb6bca4ffb3980c41e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8e54b3b535f0d5d2c80a74ff966fdb1f = $(`<div id="html_8e54b3b535f0d5d2c80a74ff966fdb1f" style="width: 100.0%; height: 100.0%;"><b>Zephyr Bar</b><br>Öffnet: 20:00, Schließt: 01:00<br><a href='https://www.google.com/maps/search/?api=1&query=48.1301,11.5779' target='_blank'>Google Maps Link</a></div>`)[0];
+            popup_249939084fa1ebdb6bca4ffb3980c41e.setContent(html_8e54b3b535f0d5d2c80a74ff966fdb1f);
+        
+
+        marker_1b5844ca4b59cb9048a65e549eb55162.bindPopup(popup_249939084fa1ebdb6bca4ffb3980c41e)
+        ;
+
+        
+    
+    
+            var marker_9a5ca390ea1438f7013dc0d50a8cf417 = L.marker(
+                [48.1322, 11.5712],
+                {}
+            ).addTo(map_52c1f8c3acc9b662b634a3f4c5b2e0f7);
+        
+    
+            var icon_85b107d38099d42d9c9c6f1978cbbfac = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_9a5ca390ea1438f7013dc0d50a8cf417.setIcon(icon_85b107d38099d42d9c9c6f1978cbbfac);
+        
+    
+        var popup_464b9b4c06a45ae7d79dda6a1bbfe13c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_567613b115795d9932d8ba84f5a40373 = $(`<div id="html_567613b115795d9932d8ba84f5a40373" style="width: 100.0%; height: 100.0%;"><b>Ochsengarten</b><br>Öffnet: 20:00, Schließt: 00:00<br><a href='https://www.google.com/maps/search/?api=1&query=48.1322,11.5712' target='_blank'>Google Maps Link</a></div>`)[0];
+            popup_464b9b4c06a45ae7d79dda6a1bbfe13c.setContent(html_567613b115795d9932d8ba84f5a40373);
+        
+
+        marker_9a5ca390ea1438f7013dc0d50a8cf417.bindPopup(popup_464b9b4c06a45ae7d79dda6a1bbfe13c)
+        ;
+
+        
+    
+    
+            ant_path_4457e4856917c27c075259f40606122f = L.polyline.antPath(
+              [[48.1125, 11.5778], [48.111, 11.5795], [48.1101, 11.5817], [48.1265, 11.5703], [48.1108, 11.5915], [48.1297, 11.5732], [48.126, 11.5688], [48.1335, 11.5894], [48.132, 11.5992], [48.1325, 11.5736], [48.1301, 11.5779], [48.1322, 11.5712]],
+              {"bubblingMouseEvents": true, "color": "blue", "dashArray": [10, 5], "dashOffset": null, "delay": 400, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "hardwareAcceleration": false, "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.5, "paused": false, "pulseColor": "#FFFFFF", "reverse": false, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+        ).addTo(map_52c1f8c3acc9b662b634a3f4c5b2e0f7);
+        
+</script>
+</html>
